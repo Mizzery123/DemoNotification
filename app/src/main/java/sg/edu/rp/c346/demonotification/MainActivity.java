@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
                         (RingtoneManager.TYPE_NOTIFICATION);
                 builder.setSound(uri);
 
-                builder.setPriority(Notification.PRIORITY_HIGH);
+
 
 
                 Notification n = builder.build();
