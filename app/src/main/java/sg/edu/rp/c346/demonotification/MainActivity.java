@@ -158,7 +158,7 @@ public class MainActivity extends AppCompatActivity {
                 Notification.Builder builder = new Notification.Builder(MainActivity.this, "default");
                 builder.setContentTitle("Welcome to Sentosa!");
                 builder.setContentText("Singapore's premier island getaway");
-          
+
                 builder.setSmallIcon(android.R.drawable.btn_star_big_off);
                 builder.setContentIntent(pIntent);
                 builder.setStyle(new Notification.BigPictureStyle().bigPicture(bitmap));
